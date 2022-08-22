@@ -8,3 +8,15 @@ body{
 header{
     background-color: #01FE87;
 }
+li{
+    list-style: decimal;
+}
+
+#SelectedCard{
+    background-color: #37003C;
+    padding: 20px;
+}
+#BudgetCard{
+    background-color: #37003C;
+    padding: 20px;
+}
