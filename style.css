@@ -25,3 +25,9 @@ footer{
     background-color: #37003C;
 
 }
+
+.btn-primary{
+    background-color: #01FE87!important;
+    border: none;
+    color: #37003C!important;
+}

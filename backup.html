@@ -26,8 +26,7 @@
                       <div class="card-body text-center playerCard">
                         <h5 class="card-title playerName">Mo. Salah</h5>
                         <p class="card-text">23 Goals | 14 Assists</p>
-                        <a onclick="addToList(this)
-" class="btn btn-primary border-0 selected">Select</a>
+                        <a class="btn btn-primary border-0 selected">Select</a>
                       </div>
                     </div>
                   </div>
@@ -37,8 +36,7 @@
                       <div class="card-body text-center playerCard">
                         <h5 class="card-title playerName">Reece James</h5>
                         <p class="card-text">23 Goals | 14 Assists</p>
-                        <a onclick="addToList(this)
-" class="btn btn-primary border-0 selected">Select</a>
+                        <a class="btn btn-primary border-0 selected">Select</a>
                       </div>
                     </div>
                   </div>
@@ -48,7 +46,7 @@
                       <div class="card-body text-center playerCard">
                         <h5 class="card-title playerName">Harry Kane</h5>
                         <p class="card-text">18 Goals | 5 Assists</p>
-                        <a onclick="addToList(this)" class="btn btn-primary border-0 selected">Select</a>
+                        <a class="btn btn-primary border-0 selected">Select</a>
                       </div>
                     </div>
                   </div>
@@ -58,8 +56,7 @@
                       <div class="card-body text-center playerCard">
                         <h5 class="card-title playerName">Van Djik</h5>
                         <p class="card-text">2 Goals | 3 Assists</p>
-                        <a onclick="addToList(this)
-" class="btn btn-primary border-0 selected">Select</a>
+                        <a class="btn btn-primary border-0 selected" >Select</a>
                       </div>
                     </div>
                   </div>
@@ -69,8 +66,7 @@
                       <div class="card-body text-center playerCard">
                         <h5 class="card-title playerName">Saka</h5>
                         <p class="card-text">5 Goals | 7 Assists</p>
-                        <a onclick="addToList(this)
-" class="btn btn-primary border-0 selected">Select</a>
+                        <a class="btn btn-primary border-0 selected ">Select</a>
                       </div>
                     </div>
                   </div>
@@ -80,8 +76,7 @@
                       <div class="card-body text-center playerCard">
                         <h5 class="card-title playerName">Cristiano Ronaldo</h5>
                         <p class="card-text">13 Goals | 7 Assists</p>
-                        <a onclick="addToList(this)
-" class="btn btn-primary border-0 selected">Select</a>
+                        <a class="btn btn-primary border-0 selected">Select</a>
                       </div>
                     </div>
                   </div>
@@ -91,8 +86,7 @@
                       <div class="card-body text-center playerCard">
                         <h5 class="card-title playerName">De Brune</h5>
                         <p class="card-text">9 Goals | 14 Assists</p>
-                        <a onclick="addToList(this)
-" class="btn btn-primary border-0 selected">Select</a>
+                        <a class="btn btn-primary border-0 selected">Select</a>
                       </div>
                     </div>
                   </div>
@@ -102,8 +96,7 @@
                       <div class="card-body text-center playerCard">
                         <h5 class="card-title playerName">Kante</h5>
                         <p class="card-text">5 Goals | 4 Assists</p>
-                        <a onclick="addToList(this)
-" class="btn btn-primary border-0 selected">Select</a>
+                        <a class="btn btn-primary border-0 selected">Select</a>
                       </div>
                     </div>
                   </div>
@@ -113,8 +106,7 @@
                       <div class="card-body text-center playerCard">
                         <h5 class="card-title playerName">Sadio Mane</h5>
                         <p class="card-text">16 Goals | 10 Assists</p>
-                        <a onclick="addToList(this)
-" class="btn btn-primary border-0 selected">Select</a>
+                        <a class="btn btn-primary border-0 selected">Select</a>
                       </div>
                     </div>
                   </div>
@@ -129,16 +121,16 @@
                   </div>
                   <div id="BudgetCard" class="border rounded-3 p-4 text-light mt-3">
                     <h5 class="fs-2 text-start fw-bold">Budget</h5><br>
-                    <h3>Per Player</h3> <input onkeyup="validation(this)" class="form-control" placeholder="" id="playerExpense">
+                    <h3>Per Player</h3> <input type="text" class="form-control" placeholder="" id="playerExpense">
                     <br>
                     <button type="button" class="btn btn-primary border-0 expenseBtn">Calculate</button>
                     <br><br>
                     <h3>Player Expenses: $<span id="TotalPlayersExpense">0</span></h3><br>
                     <h3>Manager </h3> <br>
-                    <input onkeyup="validation(this)" type="text" class="form-control" placeholder="" id="managerExpense"><br>
+                    <input type="text" class="form-control" placeholder="" id="managerExpense"><br>
 
                     <h3>Coach</h3><br> 
-                    <input onkeyup="validation(this)" type="text" class="form-control" placeholder="" id="coachExpense" >
+                    <input type="text" class="form-control" placeholder="" id="coachExpense" >
                     <br>
                     <button type="button" class="btn btn-primary border-0 TotalExpenseBtn">Calculate Total</button><br><br>
                     <h3>Total: $<span id="budgetExpense">0</span></h3>
