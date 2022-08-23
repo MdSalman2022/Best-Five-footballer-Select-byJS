@@ -8,6 +8,7 @@ body{
 header{
     background-color: #01FE87;
 }
+
 li{
     list-style: decimal;
 }
@@ -30,4 +31,11 @@ footer{
     background-color: #01FE87!important;
     border: none;
     color: #37003C!important;
+}
+
+
+@media (max-width: 768px) {
+    header img{
+        display: none;
+    }
 }
