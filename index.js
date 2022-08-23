@@ -1,4 +1,3 @@
-
 // Selected-V card functionality 
 
 
@@ -10,7 +9,7 @@ const selectedList = []
 
 function addToList(element){
     if(selectedList.length == 5){
-        alert("Max player Selected")    
+        alert("Max player Selected!!!")    
     }
     else{
         const selected = element.parentNode.children[0].innerText
@@ -62,7 +61,7 @@ TotalExpenseBtn.addEventListener('click', function(){
 function validation(element){ 
     if(isNaN(element.value) == true)
     {
-        alert("Please Input Number Only")
+        alert("Please Input Number Only!")
         element.value = ""
     }
 }

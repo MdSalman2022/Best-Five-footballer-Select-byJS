@@ -5,13 +5,17 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+
+/* header style  */
 header{
     background-color: #01FE87;
 }
-
+/* list style  */
 li{
     list-style: decimal;
 }
+
+/* card style */
 
 #SelectedCard{
     background-color: #37003C;
@@ -21,18 +25,19 @@ li{
     background-color: #37003C;
     padding: 20px;
 }
-
+/* footer style  */
 footer{
     background-color: #37003C;
 
 }
-
+/* button style */
 .btn-primary{
     background-color: #01FE87!important;
     border: none;
     color: #37003C!important;
 }
 
+/* mobile responsive */
 
 @media (max-width: 768px) {
     header img{
