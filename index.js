@@ -1,7 +1,5 @@
 // Selected-V card functionality 
 
-
-const playerName = document.querySelectorAll(".playerName")
 const list = document.querySelector("ul")
 const selectedList = []
 
@@ -29,8 +27,6 @@ function addToList(element){
 }
 
 // Budget functionality 
-
-
 const playerExpense = document.querySelector('#playerExpense')
 const managerExpense = document.querySelector('#managerExpense')
 const coachExpense = document.querySelector('#coachExpense')
